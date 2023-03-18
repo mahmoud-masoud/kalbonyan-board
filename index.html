@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>kalbonyan board</title>
+  </head>
+  <body>
+    <main>
+      <h1>Kalbonyan board</h1>
+      <span class="warning__msg">*note empty tasks will be removed</span>
+      <div class="container">
+        <section class="not__started" id="not__started">
+          <ul class="tasks__list" id="not__started__list">
+            <h2 class="main__title">Not Started</h2>
+          </ul>
+          <button class="add__task" id="not__started_btn">
+            <i class="fa-solid fa-plus"></i> Add
+          </button>
+        </section>
+
+        <section class="in__progress" id="in__progress">
+          <ul class="tasks__list" id="in__progress__list">
+            <h2 class="main__title">In Progress</h2>
+          </ul>
+          <button class="add__task" id="in__progress_btn">
+            <i class="fa-solid fa-plus"></i> Add
+          </button>
+        </section>
+
+        <section class="completed" id="completed">
+          <ul class="tasks__list" id="completed__list">
+            <h2 class="main__title">Completed</h2>
+          </ul>
+          <button class="add__task" id="completed__btn">
+            <i class="fa-solid fa-plus"></i> Add
+          </button>
+        </section>
+      </div>
+    </main>
+    <footer>@mahmoud eldenshaly</footer>
+  </body>
+</html>
